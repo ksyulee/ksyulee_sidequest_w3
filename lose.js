@@ -18,7 +18,7 @@ function drawLose() {
 
   // Main message
   textSize(40);
-  text("You Lose!", width / 2, 300);
+  text("You don't know how to guess age:)", width / 2, 300);
 
   // Instruction text
   textSize(20);
@@ -40,6 +40,7 @@ function loseMousePressed() {
 // R is commonly used for “restart” in games
 function loseKeyPressed() {
   if (key === "r" || key === "R") {
-    currentScreen = "start";
-  }
+  round = 1;             
+  currentScreen = "start";
+}
 }
