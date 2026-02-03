@@ -1,9 +1,5 @@
 let currentScreen = "start";
-
-// Quiz state (global so start/win/lose can reset it)
 let round = 1;
-
-
 let startBg;
 let quizImg1;
 let quizImg2;
