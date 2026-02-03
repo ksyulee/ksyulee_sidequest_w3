@@ -16,17 +16,14 @@ function setup() {
   // Load images
   startBg = loadImage(
     "images/start-bg.jpg",
-
   );
 
   quizImg1 = loadImage(
     "images/quizImg1.jpeg",
-   
   );
 
   quizImg2 = loadImage(
     "images/quizImg2.jpeg",
-  
   );
 }
 
